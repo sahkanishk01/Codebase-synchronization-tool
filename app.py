@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Call the sync_tool to get the latest status
-    sync_tool.main()  # This will run the synchronization
+    sync_tool.main()  #Basically for running the synchronization process
     return render_template('index.html')
 
 if __name__ == '__main__':
