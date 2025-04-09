@@ -34,10 +34,12 @@ Set up the Git hooks to enable automatic change detection:
 
 Run : chmod +x .git/hooks/post-commit
 
-Usage
+Usage :
+
 Run the Flask Application: Start the web application:
 
 Run : python app.py
+
 Access the Dashboard: Open your web browser and navigate to http://127.0.0.1:5000/ to access the synchronization dashboard.
 
 Make Changes: Edit the main.py file to make changes. The tool will automatically detect changes and synchronize them across the specified language versions.
