@@ -1,4 +1,4 @@
-from flask import Flask, render_template # type: ignore
+from flask import Flask, render_template
 import sync_tool
 
 app = Flask(__name__)
